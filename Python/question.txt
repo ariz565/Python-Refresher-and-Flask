@@ -1,0 +1,87 @@
+You are given an encrypted string (ciphertext) encoded using a Caesar cipher — where all alphabetic characters are shifted by the same amount. Non-alphabetic characters remain unchanged.
+
+Your task is to decrypt the text by finding the correct shift, using a known word that appears in the original message.
+
+
+---
+
+📥 Input:
+
+ciphertext (string): The encrypted message.
+
+known_word (string): A word known to exist in the original message.
+
+
+
+---
+
+📤 Output:
+
+Return the decrypted original string if the known word appears after decryption.
+
+Return "Invalid" if no shift makes the known word appear in the message.
+
+
+
+---
+
+✅ Examples:
+
+Input:
+
+ciphertext = "Eqfkpi vguvu ctg hwp!"
+known_word = "tests"
+
+Output:
+
+Coding tests are fun!
+
+
+---
+
+Input:
+
+ciphertext = "cdeb nqxg"
+known_word = "love"
+
+Output:
+
+abcz love
+
+
+---
+
+Input:
+
+ciphertext = "Uifsf jt op tvdi xpse"
+known_word = "hello"
+
+Output:
+
+Invalid
+
+..Coding Window
+
+Python
+
+del deciphericiphertext, knownWord
+
+#Write your code here
+
+pass
+
+Write the decipher function that takes the
+
+encrypted string as input, and returns the
+
+original, unencrypted string
+
+ciphertext input().strip()
+
+6 knownWord input().strip()
+
+7 result decipher(ciphertext, knownWord)
+
+9 print(result)
+
+10... // write the code here
